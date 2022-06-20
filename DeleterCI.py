@@ -82,7 +82,6 @@ def DiscoveryMain(Framework):
                     # Вывод в консоль полученных КЕ
                     logger.debug('----------------NODE--------------')
                     logger.debug("Node " + nodeCI.getPropertyValue("global_id") + "  " + nodeCI.getPropertyValue("name") + "  " + nodeCI.getPropertyValue("root_class"))
-                    logger.debug("Node " + nodeCI.getPropertyValue("global_id"))
 
                     logger.debug('----------------IP--------------')
                     for relation in nodeCI.getOutgoingRelations():
