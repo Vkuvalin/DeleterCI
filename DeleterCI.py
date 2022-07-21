@@ -19,7 +19,7 @@ def DiscoveryMain(Framework):
     # Создание подключения
     def createUcmdbService(Framework):
         # Получение протоколов
-        protocolNames = netutils.getAvailableProtocols(Framework, ClientsConsts.HTTP_PROTOCOL_NAME, "10.3.6.78")
+        protocolNames = netutils.getAvailableProtocols(Framework, ClientsConsts.HTTP_PROTOCOL_NAME, "Тут указывается нужный ip")
 
         ucmdbService = None
 
